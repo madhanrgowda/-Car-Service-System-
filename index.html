@@ -2,21 +2,71 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Madhan</title>
+<style>
+	#a
+	{
+		background-color: black;
+		 color: rgb(128, 255, 0); 
+		 border-radius: 2px;
+		 border-width: 1.5px;
+		 font-size: 25px;
+
+		 
+	}
+	#b
+	{
+		background-color: black;
+		 color: rgb(128, 255, 0);
+		border-radius: 2px;
+     	 border-width: 1.5px;
+     	 font-size: 25px;
+
+
+	}
+	#a:hover
+	{
+		background-color: rgb(128, 255, 0);
+		color: rgb(0, 0, 0);
+	    border-radius: 2px;
+	}
+	#b:hover
+	{
+		background-color: rgb(128, 255, 0);
+		color: rgb(0, 0, 0);
+	    border-radius: 2px;
+	}
+	#c
+	{
+		font-size: 50px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	#d
+	{
+		margin-top: 370px;
+	}
+</style>
 </head>
-<body>
+<body  style="padding-top: 100px; background-color: skyblue;">
+	
 	<center>
-		<h1>Welcome to Car Service Portal</h1>
+		<h1 id="c">Welcome to Car Service Portal</h1>
+		<br>
+		<br>
 	<form action="/CarService/adminLogin.html">
-		<input type="submit" value="Admin">
+		<input id="a" type="submit" value="Admin">
 	</form>
 	<br>
 	<br>
 	
 	<form action="/CarService/customerLogin.html">
-		<input type="submit" value="Customer">
+		<input id="b" type="submit" value="Customer">
 	</form>
 	</center>
+	
+	<footer id="d">
+		&copy; Madhan
+	</footer>
 
 </body>
 </html>
